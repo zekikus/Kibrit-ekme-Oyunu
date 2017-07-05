@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Skor Tablosu"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textSize="45sp"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baslik"
+        android:textStyle="bold"
+        android:id="@+id/header"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="55dp"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Skorlar Gelicek"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/sText"/>
+    <Button
+        android:layout_width="250dp"
+        android:id="@+id/newGame"
+        android:layout_height="wrap_content"
+        android:text="Yeni Oyun"
+        android:background="@drawable/flat_button"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_marginTop="25dp"/>
+</LinearLayout>
